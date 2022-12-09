@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Salmon Cookie Sales</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    
+    <main>
+      <h1>Salmon Cookies</h1>
+      
+    </form>
+    <img src="img/salmon.png" alt="fish"> 
+
+      <form> 
+        
+        <fieldset>
+          <legend>Create Your own cookie Stand</legend>
+          <label>Location:
+          <input required type="text" name="storelocation"></label>
+    
+          <label> Customer:
+          <input required type="number" name="minicustomer"></label>
+    
+          <label>Maximum Customer:
+          <input required type="number" name="maxicustomer"></label>
+    
+          <label>Average Cookies:
+          <input required type="text" name="averagecookies"></label>
+    
+          <button id="button" type="submit">Submit</button>
+    
+        </fieldset>
+      </form>
+      <table id="store-table">
+        <thead>
+          <tr id='hours'>
+          </tr>
+        </thead>
+        <tbody id= "store-sales"></tbody>
+        <tfoot>
+          <tr id= "store-totals">
+                           
+          </tr>
+        </tfoot>
+      </table>
+      <span><a href="index.html">Back to main page</a></span>
+      <img src="img/chinook.jpg" alt="">
+    </main>
+
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+
+body {
+  background-color: darkgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: greenyellow;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+  align-items: center;
+
+}
+
+
+
+
+#container {
+  background-color: blue;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 5px solid;
+  margin: 0 auto;
+  height: 700px;
+
+}
+
+
+#container div {
+  width: 200px;
+  height: 200px;
+
+}
