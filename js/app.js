@@ -97,30 +97,30 @@ ShopOne.prototype.render = function () {
 
 let newStoreForm = document.getElementById('form');
 
-
-
-ShopOne.prototype.render = function(){
-  this.cookiesPerHour();
-
-  let tableRow = document.createElem('tr');
-  tableElem.appendChild(tableRow);
-
-  let th = document.createElem('th');
-  th.textContent = this.location;
-  tableRow.appendChild('th');
-
-  for (let i = 0; i <storeHours.length; i++){
-    let td = document.creatElem('td');
-    td.textContent = this.cooikeArr[i];
-    tableRow.appendChild(td);
-  }
-
-  let totalCell = document.createElem('td');
-  totalCell.textContent = this.total;
-  tableRow.appendChild(totalCell);
-
-};
-
+// 
+// 
+// ShopOne.prototype.render = function(){
+  // this.cookiesPerHour();
+// 
+  // let tableRow = document.createElem('tr');
+  // tableElem.appendChild(tableRow);
+// 
+  // let th = document.createElem('th');
+  // th.textContent = this.location;
+  // tableRow.appendChild('th');
+// 
+  // for (let i = 0; i <storeHours.length; i++){
+    // let td = document.creatElem('td');
+    // td.textContent = this.cooikeArr[i];
+    // tableRow.appendChild(td);
+  // }
+// 
+  // let totalCell = document.createElem('td');
+  // totalCell.textContent = this.total;
+  // tableRow.appendChild(totalCell);
+// 
+// };
+// 
 Seattle.cookieSales();
 Tokyo.cookieSales();
 Dubai.cookieSales();
