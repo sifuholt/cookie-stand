@@ -1,56 +1,45 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
     <title>Salmon Cookie Sales</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
-
+  
   <body>
-    
-    <main>
-      <h1>Salmon Cookies</h1>
-      
-    </form>
-    <img src="img/salmon.png" alt="fish"> 
+    <nav>
+      <h1 class="heading">Ken's Salmon Cookies</h1>
+      <a href="index.html">Home</a>
+    </nav>
 
-      <form> 
-        
+    <table id="stores"></table>
+    <article>
+      <form id="storeForm">
         <fieldset>
-          <legend>Create Your own cookie Stand</legend>
-          <label>Location:
-          <input required type="text" name="storelocation"></label>
-    
-          <label> Customer:
-          <input required type="number" name="minicustomer"></label>
-    
-          <label>Maximum Customer:
-          <input required type="number" name="maxicustomer"></label>
-    
-          <label>Average Cookies:
-          <input required type="text" name="averagecookies"></label>
-    
-          <button id="button" type="submit">Submit</button>
-    
-        </fieldset>
-      </form>
-      <table id="store-table">
-        <thead>
-          <tr id='hours'>
-          </tr>
-        </thead>
-        <tbody id= "store-sales"></tbody>
-        <tfoot>
-          <tr id= "store-totals">
-                           
-          </tr>
-        </tfoot>
-      </table>
-      <span><a href="index.html">Back to main page</a></span>
-      <img src="img/chinook.jpg" alt="">
-    </main>
+          <legend>Add A New Store</legend>
+          <label for="storeName">Store Location:
+            <input name="storeName" type="text" id="storeName" placeholder="ex. Oregon">
+          </label>
+          <label for="minCust">Minimum Customers:
+            <input type="number" name="minCust">
+          </label>
+          <label for="maxCust">Maximum Customers:
+          <input type="number" name="maxCust">
+        </label>
+        <label for="averageCookiesBought">Average Cookies Bought:
+          <input type="number" name="averageCookiesBought">
+        </label>
+      </fieldset>
+      <img src="img/salmon.png" alt="fish">
+      <button type="submit">Submit</button>
+    </form>
+  </article>
+</body>
 
+  <script src="js/app.js"></script>
 
-    <script src="js/app.js"></script>
-  </body>
 </html>
